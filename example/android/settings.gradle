@@ -1,0 +1,6 @@
+rootProject.name = 'UiComponentsTestAbcdExample'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':uicomponentstestabcd'
+project(':uicomponentstestabcd').projectDir = new File(rootProject.projectDir, '../../android')
