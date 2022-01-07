@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm}"
 
   s.dependency "React-Core"
-  s.dependency "RNCPicker", :git => "https://github.com/react-native-picker/picker.git",
+  s.dependency "RNCPicker", :git => "https://github.com/react-native-picker/picker.git"
 end
