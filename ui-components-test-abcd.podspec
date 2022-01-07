@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://www.npmjs.com/package/ui-components-test-abcd.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/thiendinh1995/rn-lib-components.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
