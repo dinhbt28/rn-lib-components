@@ -1,6 +1,6 @@
 {
   "name": "ui-components-test-abcd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ui-components-test-abcd",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
